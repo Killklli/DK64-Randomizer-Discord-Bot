@@ -13,7 +13,7 @@ from helpers import checks
 class Randomizer(commands.Cog, name="randomizer-dev"):
     def __init__(self, bot):
         self.bot = bot
-        self.randomizer_version = "DK64Randomizer-Dev"
+        self.randomizer_version = "DK64-Randomizer-Dev"
 
     @commands.hybrid_command(
         name="presets_dev",
